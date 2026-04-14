@@ -1,1 +1,99 @@
 /* code here */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 20px;
+  background-color: white;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-inline: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+.hero {
+  padding: 10px 20px;
+  max-width: 1024px;
+  margin-inline: auto;
+  margin-top: 100px;
+}
+.hero p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #4102ff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 10px 20px;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.features ul {
+  margin-top: 20px;
+}
+
+.features li {
+  margin-bottom: 10px;
+}
+
+.image-section img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.links a {
+  display: block;
+  margin: 10px 0;
+  color: #2600ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background: #1e183f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media (min-width: 1060px) {
+  header {
+    padding: 10px 20px;
+    max-width: 1024px;
+    margin: auto;
+  }
+}
