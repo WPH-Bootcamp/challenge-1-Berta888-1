@@ -22,6 +22,16 @@ header {
   border-radius: 8px;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 55px;
+}
+
 nav {
   display: flex;
   gap: 10px;

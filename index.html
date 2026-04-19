@@ -4,74 +4,117 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge-1 Simple Landing Page with Html and CSS</title>
+    <!-- GOOGLE FONT-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- EXTERNAL CSS-->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <body>
-      <!-- Belajar HTML -->
-      <header>
-        <h2>Why Japanese</h2>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Lessons</a>
-          <a href="#">Materials</a>
-          <a href="#">Contact</a>
-        </nav>
-      </header>
-
-      <section class="hero">
-        <!-- Paragraf -->
-        <h1>Learn Japanese Easily & Effectively</h1>
-        <p>Mulai dari nol sampai bisa ngobrol!</p>
-        <a href="#" class="btn">Mulai Belajar</a>
-      </section>
-
-      <section class="container">
-        <h2>Welcome! Selamat Datang! ようこそ！</h2>
-        <span>Terima kasih sudah mampir di Why Japanese!</span>
-        <p>
-          Di sini, kamu bisa belajar bahasa Jepang dengan cara yang lebih mudah,
-          praktis, dan efektif. Kami percaya bahwa belajar bahasa tidak harus
-          rumit, dengan metode yang tepat, kamu bisa memahami dan menggunakannya
-          dalam kehidupan sehari-hari dengan percaya diri.
-        </p>
-      </section>
-
-      <section class="container features">
-        <h2>Kenapa belajar di WHY JAPANESE?</h2>
-        <ul type="square">
-          <li>Penjelasan simple dan mudah dipahami</li>
-          <li>Cocok unutk pemula sampai intermediate</li>
-          <li>Fokus ke percakapan sehari-hari</li>
-          <li>Banyak contoh real-life</li>
-          <li>Materi fleksibel, adjustable sesuai kebutuhan</li>
-        </ul>
-      </section>
-
-      <section class="container image-section">
-        <h2>Belajar Lebih SERU!</h2>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
         <img
-          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
-          alt="Belajar Jepang"
+          src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXlvdzU1NHd3Zzk0OXdzc2tvOG1wbzQ2ZGhkOXB1Zml0azZvcXd6OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rl0AyVtYvUET0johdu/giphy.gif"
+          alt="logo gif Japan"
         />
-      </section>
+        <h2>Why Japanese</h2>
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
 
-      <section class="container links">
-        <h2>Mulai dari sini!</h2>
-        <a href="#">📘 Basic Japanese</a>
-        <a href="#">🗣️ Daily Conversation</a>
-        <a href="#">✍️ Grammar (JLPT)</a>
-        <a href="#">🎧 Listening Practice</a>
-      </section>
+    <!-- HERO (SALES FOCUSED)-->
+    <section class="hero">
+      <h1>Ngobrol Bahasa Jepang dalam 3 bulan</h1>
+      <p>
+        Metode praktis khusus untuk kamu yang mau cepat ngomong tanpa ribet
+        grammar!
+      </p>
+      <a href="#" class="btn">Mulai Belajar</a>
+    </section>
 
-      <footer>
-        <p>
-          Why Japanese adalah platform belajar bahasa Jepang yang fokus pada
-          kemudahan dan efektivitas belajar.
-        </p>
-        <p>© 2026 Why Japanese. All rights reserved.</p>
-      </footer>
-    </body>
+    <!-- SOCIAL PROOF-->
+    <section class="container">
+      <h2>Welcome! Selamat Datang! ようこそ！</h2>
+      <span>Terima kasih sudah mampir di Why Japanese!</span>
+      <p>Dipercaya 500+ Learners!</p>
+      <p>
+        Di sini, kamu bisa belajar bahasa Jepang dengan cara yang lebih mudah,
+        praktis, dan efektif. Kami percaya bahwa belajar bahasa tidak harus
+        rumit, dengan metode yang tepat, kamu bisa memahami dan menggunakannya
+        dalam kehidupan sehari-hari dengan percaya diri.
+      </p>
+      <p>
+        Sudah membantu banyak siswa dari nol sampai bisa conversation real-life.
+      </p>
+    </section>
+
+    <section class="container features" id="about">
+      <h2>Kenapa belajar di WHY JAPANESE?</h2>
+      <ul type="square">
+        <li>🔥Penjelasan simple dan mudah dipahami</li>
+        <li>🧠Cocok unutk pemula sampai intermediate</li>
+        <li>🎯Fokus ke percakapan sehari-hari</li>
+        <li>🗣️Banyak contoh real-life</li>
+        <li>📈Materi fleksibel, adjustable sesuai kebutuhan</li>
+      </ul>
+    </section>
+
+    <!-- COURSE CONTENT-->
+    <section class="container links" id="courses">
+      <h2>Apa saja yang Kamu dapat?</h2>
+      <a href="#">📘 Basic Japanese (Zero → Beginner)</a>
+      <a href="#">🗣️ Daily Conversation Training</a>
+      <a href="#">✍️ Grammar (JLPT)</a>
+      <a href="#">🎧 Listening & Shadowing Practice</a>
+    </section>
+
+    <!-- IMAGE -->
+    <section class="container image-section">
+      <h2>Belajar Lebih SERU!</h2>
+      <img
+        src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+        alt="Belajar Jepang"
+      />
+    </section>
+
+    <section class="container testimonial">
+      <h2>Testimonial</h2>
+      <p>
+        "Aku dulu gak ngerti apa-apa, sekarang bisa komunikasi dengan lancar
+        lanjut study di Jepang"
+      </p>
+      <strong> Alumnus Why Japanese - Glenn</strong>
+
+      <p>
+        Saya terbantu sekali dengan pembelajaran yang adjustable, ketika saya di
+        Jepang 1 bulan saya tetap bisa belajar dan komunikasi di Jepang jadi
+        lebih lancar.
+      </p>
+      <strong> Alumnus Why Japanese - Imam </strong>
+
+      <p>
+        Terima kasih sensei, saya jadi bisa bicara lebih lancar ketika bertugas
+        kerja di Jepang! Yang lain buruan join dan rasakan lancar berbahasa
+        Jepang.
+      </p>
+      <strong> Alumnus Why Japanese - Rachman </strong>
+    </section>
+
+    <footer>
+      <p>
+        Why Japanese adalah platform belajar bahasa Jepang yang fokus pada
+        kemudahan dan efektivitas belajar.
+      </p>
+      <p>© 2026 Why Japanese. All rights reserved.</p>
+    </footer>
   </body>
 </html>
