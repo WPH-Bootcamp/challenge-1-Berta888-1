@@ -64,6 +64,16 @@ nav a:hover {
   border-radius: 5px;
 }
 
+
+.btn-join {
+  background: #4102ff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  justify-content: center;
+}
+
 .container {
   padding: 10px 20px;
   max-width: 1024px;
@@ -90,6 +100,53 @@ nav a:hover {
   color: #2600ff;
   text-decoration: none;
   font-weight: bold;
+}
+
+.container-pricing {
+  padding: 10px 20px;
+  max-width: 1024px;
+  margin-inline: auto;
+  margin-top: 10px;
+}
+.pricing {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pricing-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.pricing-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(10, 10, 10, 0.18);
+  transtition: 0.3s;
+  width: 250px;
+}
+
+.pricing-card:hover {
+  transform: translateY(-8px);
+}
+
+.pricing-card h3 {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1,6rem;
+  color: #4102ff;
+}
+
+.price span {
+   font-size: 0,9rem;
+   color: #666;
+   margin-bottom: 10px;
 }
 
 footer {
